@@ -1,0 +1,21 @@
+.container {
+    background-color: var(--bg-default);
+    width: 100%;
+    height: 100vh;
+}
+
+/* == BUTTONS == */
+
+.btn {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--number-btn-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--number-btn-hover-color);
+}
