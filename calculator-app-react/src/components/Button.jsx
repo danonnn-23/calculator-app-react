@@ -1,10 +1,10 @@
 function Button (props) {
 
-    const { label, type, handleClick } = props;
+    const { label, handleClick } = props;
 
     return (
         <button 
-            className={`btn ${type}`}
+            className={`btn`}
             onClick={() => handleClick(label)}
         >
             {label} 

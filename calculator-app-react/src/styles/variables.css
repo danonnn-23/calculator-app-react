@@ -1,9 +1,26 @@
 :root {
     /* Colors */
-    --clr-primary: hsl(19, 100%, 49%);
-    --clr-secondary: hsl(217, 71%, 53%);
-    --bg-default: hsl(222, 26%, 31%);
+    --clr-element-primary: hsl(19, 100%, 49%);
+    --clr-element-secondary: hsl(217, 49%, 62%);
+    --clr-element-tertiary: hsl(223, 22%, 49%);
+    --clr-element-quaternary: hsl(223, 22%, 40%);
+    --clr-element-primary-hover: hsl(19, 100%, 44%);
+    --clr-element-secondary-hover: hsl(217, 49%, 57%);
+    --clr-element-tertiary-hover: hsl(223, 22%, 44%);
+    --clr-element-quaternary-hover: hsl(223, 22%, 35%);
+
+    --clr-font-primary: hsl(19, 100%, 50%);
+    --clr-font-secondary: hsl(0, 0%, 0%);
+    --clr-font-tertiary: hsl(0, 0%, 90%);
+    --clr-font-quaternary: hsl(0, 0%, 100%);
+
+    --clr-bg-default: hsl(222, 26%, 31%);
 
     /* Font Sizes */
+    --fs-small: 14px;
+    --fs-medium: 18px;
+    --fs-large: 24px;
+    --fs-xlarge: 32px;
 
+    /* Fonts */
 }
